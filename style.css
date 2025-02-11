@@ -1,0 +1,1117 @@
+* {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px;
+    font-family: 'roboto', sans-serif;
+}
+#pageOneTwo {
+    display: flex;
+    flex-direction: column;
+    height: 1660px;
+
+}
+#section1 #logo {
+
+    width: 200px;
+    height: 100px;
+}
+
+#MessageSucces{
+    text-decoration:#000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 17px;
+    width: 14.45em;
+    height: 4em;
+    padding: 16px;
+    size: 15px;
+}
+
+#unknown {
+    display: flex;
+    margin-left: 56%;
+    margin-top: 39px;
+}
+#customer-service {
+    width: 40px;
+    height: 38px;
+}
+#hours {
+    width: 40px;
+    height: 35px
+}
+#time {
+    display: flex;
+}
+#contact {
+    display: flex;
+    margin-right: 35px;
+    height: 45px;
+}
+#section1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    position: relative;
+    top: 0;
+}
+#section2 {
+    position: fixed;
+    top: 0;
+    border-top: 1px solid rgba(34, 34, 34, .4);
+    height: 4.7em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff73;
+    z-index: 100000;
+    clear: both;
+    position: relative;
+    margin: 0;
+    float: none;
+}
+#nav { 
+    margin-left: 10px;
+    text-transform: uppercase;
+    width: 50%;
+    gap:"space-between";
+}
+#nav a {
+    margin-left: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    color: black;
+    transition: transform 0.5s ease;
+}
+#nav a:hover{
+    box-shadow: 2px 2px 3px 1px rgba(10, 10, 10, 0.2);
+    transition: transform 0.3s ease;
+}
+#socialmedia {
+    margin-left: 370px;
+    color: rgba(27, 27, 245, 0.915);
+    padding-right: 5em;
+    display: flex;
+}
+
+#socialmedia a{
+    padding: 20px;
+}
+#socialmedia i:hover{
+    color: #bc74a5;
+}
+#searchbar {
+    margin-right: 0px;
+    padding-left: 50px;
+}
+#searchbar i{
+    color: rgba(0, 0, 0, 0.864)
+}
+#searchbar i:hover{
+    color: #0e50a7;
+}
+#home .back1 {
+    background-size: cover;
+    width: 100px;
+    height: 70px;
+}
+.back1Container {
+    position: relative;
+    width: 99vw;
+    height: 900px;
+    background-image: url('Back1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text {
+    padding-top: 140px;
+    padding-left: 60px;
+}
+.text h3 {
+    font-size: 40px;
+    color: #bc74a5;
+}
+.text h1 {
+    font-size: 58px;
+    color: #164889;
+}
+#services {
+    display: flex;
+    flex-direction: row;
+    margin-left: 54px;
+}
+.implants {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 60px;
+}
+#implantimg {
+    width: 40px;
+}
+.implants h4 {
+    padding-left: 50px;
+    font-weight: inherit;
+
+}
+.implants h2 {
+    padding-left: 10px;
+    font-weight: inherit;
+    color: #0c4ea5;
+}
+#Alingmentimg {
+    width: 40px;
+}
+.Alignments {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100px;
+}
+.Alignments h4 {
+    padding-left: 50px;
+    font-weight: normal;
+}
+.Alignments h2 {
+    padding-left: 10px;
+    font-weight: inherit;
+    color: #0c4ea5;
+}
+#button {
+    display: inline-block;
+    background-color: #bc74a5;
+    border-radius: 5px;
+    border: none;
+    width: 190px;
+    align-items: center;
+    height: 66px;
+    margin-left: 54px;
+    margin-top: 49px;
+    font-size: 18px;
+    z-index: 1000;
+    color: #ffffff;
+    transition: all ease 1s;
+    box-shadow: 1px 1px 3px 1px rgba(34, 34, 34, .2);
+    padding-top: 18px;
+    transition: transform 0.3s ease;
+
+}
+#button:hover{
+    transform: translateY(-3px);
+     background-image: linear-gradient(to right, #bc74a5 2%, #0e54ae 100%);
+
+}
+#button a {
+    padding-bottom: 29px;
+    padding-left: 31px;
+    padding-right: 29px;
+    padding-top: 24px;
+    font-weight: 200;
+    color: #fff;
+    opacity: .9;
+    font-size: 16px;
+}
+#appointmentForm {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff
+}
+#patientReview {
+    position: absolute;
+    margin-left: 69px;
+    height: 390px;
+    background-color: #ffffff34;
+    z-index: 10000;
+    box-shadow: 1px 1px 3px 1px rgba(34, 34, 34, .2);
+    margin-top: 1080px;
+}
+#patientReview h3 {
+    padding-left: 1.87em;
+    padding-right: 1.87em;
+    padding-top: 4em;
+    color: #000;
+    font-size: 23px;
+    font-weight: lighter;
+    opacity: .9;
+    font-family: open sans;
+}
+#patientReview img {
+    width: 123px;
+    height: 60px;
+    padding-left: 220px;
+}
+#form {
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 1010px;
+    width: 690px;
+    height: 540px;
+    background-color: #fffffff8;
+    z-index: 100;
+    box-shadow: 1px 1px 3px 1px rgba(34, 34, 34, .2);
+    border-radius: 1%;
+}
+#form h1 {
+    color: #0e54ae;
+    padding-top: 40px;
+    padding-left: 150px;
+    font-size: 33px;
+    font-weight: 100;
+}
+
+#form img {
+    padding-top: 40px;
+    padding-left: 150px;
+    width: 230px;
+    height: 230px;
+}
+#inputform {
+    display: flex;
+    flex-direction: row;
+}
+.fillthis {
+    padding-top: 29px;
+    padding-left: 45px;
+}
+.input {
+    width: 200px;
+    height: 50px;
+    padding-left: 26px;
+    box-shadow: 1px 1px 3px 1px rgba(34, 34, 34, .2);
+    border: none;
+    margin: 10px;
+    transition: transform 0.5s ease;
+}
+.input:hover{
+    transform: translatey(-1px);
+    width: 201px;
+    height:51px ;
+}
+#date {
+    display: none;
+}
+#bookButton {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 225px;
+    height: 53px;
+    background-color: #bc74a5;
+    border-radius: 3%;
+    box-shadow: 1px 1px 3px 1px rgba(34, 34, 34, .2);
+    transition: transform 0.5s ease;
+}
+#bookButton:hover{
+    transform: translateY(-3px);
+}
+#bookButton a h2 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 33px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+}
+#bookButton:hover {
+    background-image: linear-gradient(to left, #bc74a5 1%, #0e54ae 100%);
+}
+#excellnceService {
+    height: 600px;
+}
+#commitService {
+    margin-top: 0px;
+    margin-left: 50px;
+}
+#commitService h3 {
+    color: #bc74a5;
+    font-size: 26px;
+    font-weight: lighter;
+}
+#commitService h1 {
+    color: #0c4ea5;
+    font-size: 48px;
+}
+#seeServiceButton a {
+    background-color: #0e54ae;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    box-shadow: 1px 1px 3px 1px rgba(34, 34, 34, 0.2);
+    border: 1px solid #acc1dc;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 190px;
+    height: 60px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+#seeServiceButton a:hover {
+    background-image: linear-gradient(to right, #0e54ae 1%, #bc74a5 100%);
+    transform: translateY(-3px);
+}
+#seeServiceButton a h2 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+}
+#seeServiceButton a i {
+    color: #fff;
+
+}
+#buttonFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#eightBox {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 418px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 43px;
+}
+#iconDental {
+    position: absolute;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 167px;
+    z-index: 1000;
+    box-shadow: 1px 1px 3px 1px rgba(34, 34, 34, .2);   
+}
+.iconDentalClass{
+    transition: transform 0.3s ease;
+}
+.iconDentalClass:hover {
+    transform: translateY(-3px);
+}
+#iconDental img {
+    width: 48px;
+    height: 48px;
+    padding: 17px;
+}
+.boxAbove {
+    width: 289px;
+    height: 209px;
+    background-size: cover;
+    margin-left: 13px;
+}
+#box1 {
+    background-image: url(https://denticare.bold-themes.com/allen/wp-content/uploads/sites/16/2020/01/home-services.jpg);
+}
+#box2 {
+    background-image: url(https://denticare.bold-themes.com/allen/wp-content/uploads/sites/16/2020/01/home-services-2.jpg);
+}
+#box3 {
+    background-image: url(https://denticare.bold-themes.com/allen/wp-content/uploads/sites/16/2020/01/home-services-3.jpg);
+}
+#box4 {
+    background-image: url(https://denticare.bold-themes.com/allen/wp-content/uploads/sites/16/2020/01/home-services-4.jpg);
+}
+.boxBelow {
+    width: 289px;
+    height: 209px;
+    background-color: #bc74a5;
+    color: #fff;
+    margin-left: 13px;
+}
+.boxBelow h2 {
+    padding-left: 30px;
+    padding-top: 60px;
+    font-weight: 80;
+}
+.boxBelow h4 {
+    padding-left: 30px;
+    padding-top: 0px;
+    font-weight: 80;
+}
+
+#contactPage {
+    width: 99.8%;
+    height: 1190px;
+    background-color: #fff;
+    border-top: 1px solid rgb(205, 196, 196);
+}
+#contactPara {
+    padding-top: 14px;
+    padding-left: 352px;
+    font-size: 17px;
+    opacity: .9;
+}
+#contactText {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 168px;
+    padding-left: 452px;
+}
+#contactText #Contact {
+    color: #bc74a5;
+    font-weight: 540;
+    font-size: 42px;
+}
+#contactText #myDentist {
+    color: #0e54ae;
+    font-weight: 700;
+    font-size: 42px;
+}
+#timeMap {
+    background-color: #fff;
+    width: 99.9%;
+    height:790px ;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+}
+#workingDayBox {
+    background-color: #0e50a7;
+    position: absolute;
+    z-index: 1000;
+    width: 38%;
+    height: 94%;
+    margin-left: 740px;
+    margin-top: 59px;
+    padding-right: 40px;
+    font: 1em sans-serif;
+}
+#workingDayBox #visit {
+    padding-left: 44px;
+    font-size: 16px;
+    font-weight: 49;
+    margin-top: 16px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#workingDayBox #Hours {
+    padding-left: 50px;
+    padding-top: 50px;
+    color: #fff;
+}
+#visitDay {
+    width: 100%;
+    height: 39%;
+    padding-top: 48px;
+}
+.Days {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee8e833;
+    margin-top: 10px;
+}
+.Days a
+{
+    color: #000000c7;
+}
+.Days a:hover{
+    background-color: #eee5e5;
+}
+#visitDay h4 {
+    margin-left: 100px;
+    opacity: .5;
+    font-size: 14px;
+    font-weight: 10;
+    color: #fff;
+}
+#friTime {
+    padding-left: 25px;
+}
+#satDay {
+    width: 50%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    margin-left: 56px;
+    margin-top: 7px;
+}
+.Days h3 {
+    /* background-color: #bc74a5; */
+    font-weight: lighter;
+    font-size: 17px;
+    color: #fff;
+    padding-left: 60px;
+}
+.Days a {
+    background-color: #fff;
+    width: 73px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 1px 1px 4px 1px rgba(34, 34, 34, .2);
+    margin-left: 67px;
+    padding-left: 15px;
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+.Days a:hover{
+    transform: translateY(-3px);
+}
+.Days a img {
+    width: 15px;
+    height: 14px;
+    margin-left: 14px;
+}
+#RecommendTime {
+    color: #fff;
+    margin-top: 38px;
+    margin-left: 58px;
+    font-size: 18px;
+}
+#suggestButton {
+    background-color: #fff;
+    width: 240px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 16px;
+    border-radius: 3px;
+    transition: transform 0.2s ease;
+}
+#suggestButton a{
+    padding-bottom: 22px;
+}
+#suggestButton:hover{
+    transform: translateY(-3px);
+}
+#suggestButton a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+#contactInformation {
+    display: flex;
+    flex-direction: row;
+}
+.contactUs {
+    margin-left: 30px;
+    width: 590px;
+    height: 100px;
+    color: #000;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactUs img {
+    width: 50px;
+    height: 50px;
+}
+.contactUs h3 {
+    font-size: 22px;
+    color: #000000e9;
+    font-weight: lighter;
+}
+.contactUs h4 {
+    font-size: medium;
+    font-weight: 20;
+    opacity: .6;
+}
+#footer {
+    width: 100%;
+}
+#footBro{
+    width: 100%;
+    height: 200px;   
+    margin-top: 100px;
+}
+#fourFooterBox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #F8F8F8;
+}
+#footerBox1 {
+    width: 290px;
+    height: 220px;
+    padding-top: 60px;
+    padding-left:50px ;
+    font-size: 12px;
+    color: #000;
+}
+#footerBox1 i {
+    color: #0c4ea5;
+    transition: transform 0.2s ease;
+}
+#footerBox1 a h4{
+    color: #000;
+}
+#footerBox1 i:hover{
+    color: #000;
+    transform: translateY(-3px);
+}
+#footerBox2 {
+    width: 250px;
+    height: 220px;
+    padding-top: 60px;
+    padding-left:50px ;
+    font-size: 12px;
+    color:#000;
+}
+#footerBox3 {
+    width: 390px;
+    height: 220px;
+    padding-top: 60px;
+    padding-left:50px ;
+    font-size: 12px;
+}
+#footerBox3 img{
+    width: 330px;
+    position: absolute;
+    z-index: 1000;
+}
+#footerBox3 p{
+    padding-left: 64px;    
+}
+#footerBox3 .seventeen{
+    padding-left: 100px;
+}
+#footerBox3  #sixteen{
+    padding-left: 90px;
+}
+#awards{
+    height: 200px;
+    width: 300px;   
+  background-image: url(https://denticare.bold-themes.com/allen/wp-content/uploads/sites/16/2020/03/footer-awards-new.png);
+  background-size: 280px 100px ;
+  background-repeat: no-repeat;
+  background-position-x:23px;
+}
+#year{
+    padding-top: 30px;
+}
+#footerBox4 {
+    width: 300px;
+    height: 330px;
+    padding-top: 60px;
+    padding-left:50px ;
+    font-size: 12px;
+    color: #000;
+}
+#footerBox4 i{
+    width: 20px;
+    height: 20px;
+    background-color: #164889;
+    gap: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 1px 1px 4px 1px rgba(8, 8, 8, 0.635);
+    transition: transform 0.2s ease;   
+}
+#footerBox4 i:hover{
+   background-color: #fff;
+    color: #093063;
+    transform: translateY(-3px);
+}
+.FootH1{
+   font-weight: lighter;
+   color: #bc74a5;
+   border-bottom: 1px solid #cbc3c3;  
+}
+.FootH3{
+    font-weight: lighter;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+#copyright{
+    width: 100%;
+    height: 70px;
+    background-color: #0e50a7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#copyright h5{
+  padding-top: 30px;
+  padding-left: 50px;
+  color: #fff;
+}
+#footNav{
+    width: 640px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+#footNav h4{
+    color: #ffffff;
+    transition: transform 0.2s ease;
+}
+#footNav h4:hover{
+    color: #bc74a5;
+    transform: translateY(-3px);
+}
+#team{
+   background-image: url(DaboutBack.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#team img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow:1px 1px 4px 1px rgba(8, 8, 8, 0.635) ;
+}
+#Dname{
+    color: #000;  
+    font-size: 25px;
+}
+.Dabout{
+    color: #000;
+    font-size: 17px;
+}
+#Dshare{
+    width: 80%;
+    height: 40px;   
+    position: absolute;
+    box-shadow: 1px 1px 4px 1px rgba(8, 8, 8, 0.635);
+    margin-left: 80px;
+    z-index: 1000;
+    margin-top: 39%;
+    margin-right: 80px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   padding-left: 14px;
+   padding-right: 14px;
+}
+#aboutDr{
+    width: 100%;
+    height: 800px;
+    background-color: #e1d5d59b;
+    display: flex;
+    flex-direction: row;
+}
+#askQuestion{
+    background-color: #bc74a5;  
+    padding: 11px 130px;
+    margin-left: 100px;
+}
+#Dshare a{
+    color: #000000c1;
+}
+#askQuestion a{
+    color: #fff;
+    font-size: large;
+}
+#iconshare img{
+    width: 20px;
+    height: 20px;
+}
+#aboutMe{
+    width: 38%;
+    height: 1300px;
+    background-color: #fff;
+    box-shadow:1px 1px 4px 1px rgba(8, 8, 8, 0.635) ;
+   margin: 90px 15px 15px 116px;
+   padding:20px 0 20px 20px;
+   padding-right: 20px;
+}
+#aboutMe span{
+    color: #000;  
+}
+#aboutMe p{
+    color: #000000ba;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.Dmedia i{
+    width: 24px;
+    height: 24px;
+    background-color: #164889;
+    gap: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 1px 1px 4px 1px rgba(8, 8, 8, 0.635);
+    transition: transform 0.2s ease;   
+}
+.Dmedia{
+    display: flex;
+    flex-direction: row;
+}
+.Dmedia i:hover{
+   background-color: #fff;
+    color: #093063;
+    transform: translateY(-3px);
+}
+#QualiAndmore{
+    width: 39%;
+    height: 800px;
+    margin-top:70px ;
+}
+.Qmore{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    box-shadow:1px 1px 4px 1px rgba(174, 123, 123, 0.635) ;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding:  25px;
+    text-transform: uppercase;
+    opacity: .9;
+}
+.Qmore h6{
+    opacity: .7;
+}
+#fellowship{
+    height: 150px;
+    justify-content: flex-start;
+}
+#Testimonial{
+    height: 150px;
+    justify-content: flex-start;
+}
+#Testimonial pre{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.monial{
+    background-color: #e6dcdcac;
+    height: 100px;
+    width: 100%;
+    padding-left: 0;
+}
+#locate{
+  background-color: #fff;
+  box-shadow:1px 1px 4px 1px rgba(174, 123, 123, 0.635) ;
+  margin-top: 650px;
+  margin-left: 116px;
+  width: 41%;
+  height: 517px;
+}
+#locate #viewlink{
+    border-top: 1px solid rgba(196, 187, 187, 0.664);
+    border-bottom:1px solid rgba(186, 179, 179, 0.515) ;
+    height: 57px;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#locate h5{
+    padding: 10px;
+}
+#locate a{
+    color: #000000c2;
+    opacity: .9;
+}
+.appoin{
+    height: 47px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #7a0957;  
+}
+.appoin p{
+    color: #fff;
+}
+.appoin a :hover{
+    background-color: #0c4ea5;
+}
+#recco{
+    background-color: #fff;
+    box-shadow:1px 1px 4px 1px rgba(174, 123, 123, 0.635) ;
+    margin-top: 40px;
+    margin-left: 116px;
+    width: 41%;
+    height: 350px; 
+}
+#recco h4{
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para p{
+    padding: 20px;
+    border-top: 1px solid rgba(221, 212, 212, 0.59);
+    opacity: .9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#FirstPara{
+    border-top: none;
+}
+#teamfoot{
+    width: 100%;
+    height: 80px;
+    background-color: #a9197c;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#teamfoot p{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: .9;
+}
+#mini{
+    padding-left: 120px;
+}
+#Alingmentimg {
+    width: 40px;
+}
+.Alignments {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100px;
+}
+.Alignments h4 {
+    padding-left: 50px;
+    font-weight: normal;
+}
+.Alignments h2 {
+    padding-left: 10px;
+    font-weight: inherit;
+    color: #0c4ea5;
+}
+.Whitening{
+    display:flex;
+    flex-wrap:wrap;
+    width: 190px;
+    height: 120px;
+    color: red;
+}
+.back1Container2 {
+    position:inherit;
+    width: 99vw;
+    height: 900px;
+    background-image: url('dentist.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 200px;
+}
+.back1Container3 {
+    position: relative;
+    width: 99vw;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text {
+    padding-top: 140px;
+    padding-left: 10px;
+}
+.text h3 {
+    font-size: 40px;
+    color: #bc74a5;
+}
+.text h1 {
+    font-size: 58px;
+    color: #164889;
+}
+
+#contactNow{    
+    height: 100vh;
+    background-image: url(Contactimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+#contactNow p{
+    font-size: 70px;
+    opacity: .8;
+    color: #fff;
+}
+.putName{
+    width:320px ;
+    border-radius: 20px ;
+    padding: 15px 10px 15px 10px ;
+    margin-top: 20px;
+}
+#Message{
+    width:320px ;
+    height: 60px;
+    border-radius: 20px ;
+    padding: 10px 10px 15px 10px ;
+    margin-top: 20px;
+}
+#messageButton{
+    width:350px ;
+    height: 60px;
+    background-color: #119375;
+    margin-top: 20px;
+    border-radius:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: transform 0.3s ease;
+
+}
+#messageButton:hover{
+    transform: translateY(-3px);
+    background-image: linear-gradient(to right, #119375 2%, #0e54ae 100%);
+}
+#topicon{
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    z-index: 5000;
+}
+#topicon a {
+    color: #000;
+}
+#topicon a :hover{
+    color: #fff;
+}
+#topicon :hover{
+    background-color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogh1{
+    margin-top: 25px;
+    color: rgb(113, 125, 255);
+    font-size: 36px; 
+    text-shadow: 1px 1px 1px rgb(113, 125, 255);
+}
+
+
